@@ -1,0 +1,9 @@
+package numList;
+
+public class BigNumber implements NumberSequence {
+
+	@Override
+	public void mtdNumRes(double[] list) {
+	}
+
+}

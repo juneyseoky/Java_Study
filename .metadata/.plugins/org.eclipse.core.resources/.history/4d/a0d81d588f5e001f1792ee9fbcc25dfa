@@ -1,0 +1,22 @@
+package numList;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		while(true) {
+			System.out.print("입력할 숫자 개수(2~10) : " );
+			int num = sc.nextInt();
+			if(num >= 2 && num <= 10) {
+				System.out.printf("\\n숫자 데이터 %d개 입력", num);
+				break;
+			}else {
+				System.out.println("\n2~10사이의 값을 입력해주세요");				
+			}
+		}
+		sc.close();		
+	}
+	
+}

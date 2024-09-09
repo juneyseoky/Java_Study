@@ -1,0 +1,27 @@
+package numList;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("입력할 숫자 개수(2~10) : " );
+		int num = sc.nextInt();
+		for (int i = 1; i <= num; i++) {
+			if(num<2 || num>10) {
+				System.out.println("2~10사이의 값을 입력해주세요");
+				System.out.print("입력할 숫자 개수(2~10) : " );
+				num = sc.nextInt();
+				continue;
+			}
+			System.out.printf("숫자 데이터 %d 입력 \n", num);
+			System.out.print(i + ". 입력값 : ");
+			sc.nextDouble();
+			
+			
+		}
+
+		sc.close();
+	}
+}

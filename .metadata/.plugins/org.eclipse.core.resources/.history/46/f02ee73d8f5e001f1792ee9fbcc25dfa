@@ -1,0 +1,18 @@
+package numList;
+
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("입력할 숫자 개수(2~10) : " );
+		int num = sc.nextInt();
+		while(true) {
+			if(num<2 || num>10) {
+				System.out.println("2~10사이의 값을 입력해주세요");
+			}
+			sc.close();		
+		}
+	}
+}

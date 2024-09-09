@@ -1,0 +1,14 @@
+package numList;
+
+public class SmallNumber implements NumberSequence {
+
+	@Override
+	public void mtdNumRes(double[] list) {
+		double smallNum = 0;
+		for (int i = 0; i < list.length; i++) {
+			if(list[i]<smallNum) smallNum = list[i]; 
+		}
+		System.out.printf("가장 작은 값 : %.0f", smallNum);
+	}
+
+}

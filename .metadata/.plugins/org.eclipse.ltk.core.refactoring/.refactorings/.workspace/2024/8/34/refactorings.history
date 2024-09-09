@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;p11_JavaAPI&apos; to &apos;p12_JavaAPI&apos;" description="Rename resource &apos;p11_JavaAPI&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/p11_JavaAPI" name="p12_JavaAPI" stamp="1724139715396" updateReferences="true"/>
+</session>

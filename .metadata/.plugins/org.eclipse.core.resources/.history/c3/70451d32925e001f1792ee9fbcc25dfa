@@ -1,0 +1,14 @@
+package numList;
+
+public class BigNumber implements NumberSequence {
+
+	@Override
+	public void mtdNumRes(double[] list) {
+		double bigNum = 0;
+		for (int i = 0; i < list.length; i++) {
+			if(list[i]>bigNum) bigNum = list[i]; 
+		}
+		System.out.printf("가장 큰 값 : %.0f",bigNum);
+	}
+
+}

@@ -1,0 +1,9 @@
+package numList;
+
+public class SmallNumber implements NumberSequence {
+
+	@Override
+	public void mtdNumRes(double[] list) {
+	}
+
+}

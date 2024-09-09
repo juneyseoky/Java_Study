@@ -1,0 +1,14 @@
+package numList;
+
+import java.util.Arrays;
+
+public class SmallNumber implements NumberSequence {
+
+	@Override
+	public void mtdNumRes(double[] list) {
+		double min = Arrays.stream(list).min().getAsDouble();
+		
+		System.out.printf("가장 작은 값 : %.0f\n", min);
+	}
+
+}

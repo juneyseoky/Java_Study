@@ -1,0 +1,5 @@
+package numList;
+
+public interface NumberSequence {
+
+}

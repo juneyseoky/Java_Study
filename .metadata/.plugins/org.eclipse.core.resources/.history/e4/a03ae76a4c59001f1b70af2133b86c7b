@@ -1,0 +1,27 @@
+package wrapper;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		int cnt = 1;
+		List<Integer> list = new ArrayList<Integer>();
+		Scanner sc = new Scanner(System.in);
+		while(true) {
+			System.out.print(cnt + "입력 : " );
+			list.add(sc.nextInt());
+			
+			if(sc.next()=="x") {
+				break;
+			}
+			continue;
+		}
+		System.out.println(list);
+		sc.close();
+
+	}
+
+}

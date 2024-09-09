@@ -1,0 +1,14 @@
+package pkg;
+
+public class Main {
+//	메인 클래스
+//	참조 클래스를 사용하는 클래스
+//	메인클래스만 다른 클래스를
+//	참조할 수 있는 것은 아님.
+//	모든 클래스가 서로를 참조할 수 있음
+
+	public static void main(String[] args) {
+
+	}
+
+}
