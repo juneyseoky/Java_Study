@@ -16,6 +16,7 @@ public class InputOutput {
 					"까지의 합은" + sum +"입니다.";
 		
 		System.out.println(res);
+		System.out.println("Test");
 		
 		
 	}

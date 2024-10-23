@@ -6,6 +6,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="D:\Java_Web_AI\silsp\mysql\p05\20241021_MySQL_P05_Quiz풀이_JDBC(JDBC_Read_Quiz)"/>
+			<item value="D:\Java_Web_AI\silsp\mysql\p05\20241021_MySQL_P05_QD풀이_작업완료(community)"/>
+			<item value="D:\Java_Web_AI\silsp\mysql\p05\20241021_MySQL_P05_JDBC_실습소스(DataRead)"/>
 			<item value="D:\Java_Web_AI\silsp\pojo\Java_Study"/>
 		</list>
 	</section>

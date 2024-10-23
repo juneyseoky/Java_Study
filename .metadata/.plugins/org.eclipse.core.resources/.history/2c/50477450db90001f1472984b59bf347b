@@ -1,0 +1,5 @@
+package pkg.qd;
+
+public class DBConn {
+
+}

@@ -10753,3 +10753,368 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2024-10-23 09:17:23.033 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2024-10-23 09:18:58.918
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-10-23 09:18:58.918
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@248e31a1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2eb6a77f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-10-23 09:18:58.918
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1b1d2d7b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c9fa12,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2024-10-23 09:19:11.541
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2024-10-23 09:19:11.541
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-23 09:19:11.808
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Class07'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:23.792
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.core.common.platform,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:23.794
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.json.simple,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:24.159
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.meexplorer,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:24.215
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.meexplorer.jdt,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:24.306
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.patches,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:24.621
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.startup,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:24.878
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.startup.workspace,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:24.948
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.base.win,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:25.005
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.base,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:25.139
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.core,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:25.151
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.css,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:25.187
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.elevation.win32,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:25.281
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.epl,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:25.387
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.icon.designer,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:25.513
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.scrollbar.win,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:25.569
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.scrollbar,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:25.681
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.theming.ui,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:25.702
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.ui.common.platform,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:25.730
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.webclipse.evergreen,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:25.796
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipse.webicons,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:25.865
+!MESSAGE No digest algorithm is available to verify download of osgi.bundle,com.genuitec.eclipsecolortheme.api,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:25.907
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.core.feature,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:25.996
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.designer.feature,2024.3.0.202409191846.
+
+!ENTRY org.eclipse.equinox.p2.artifact.repository 2 0 2024-10-23 09:19:26.094
+!MESSAGE No digest algorithm is available to verify download of org.eclipse.update.feature,com.genuitec.eclipse.theming.feature,2024.3.0.202409191846.
+!SESSION 2024-10-23 10:26:53.334 -----------------------------------------------
+eclipse.buildId=4.23.0.I20220308-0310
+java.version=17.0.2
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.jface 2 0 2024-10-23 10:27:05.647
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-10-23 10:27:05.647
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a98983b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1390cc4c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-10-23 10:27:05.647
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3905229,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ebefdfa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui.navigator 2 0 2024-10-23 10:27:10.110
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2024-10-23 10:27:10.110
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-10-23 10:27:10.281
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Class07'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-10-23 10:27:44.743
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Font.<init>(Font.java:146)
+	at com.genuitec.eclipse.webicons.styled.StyledContent.setContent(StyledContent.java:207)
+	at com.genuitec.eclipse.webclipse.evergreen.internal.ui.ReleaseNotesDialog.createDialogArea(ReleaseNotesDialog.java:108)
+	at org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:767)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.genuitec.eclipse.webclipse.evergreen.internal.ui.ReleaseNotesDialog$1.runSafelyInUIThread(ReleaseNotesDialog.java:57)
+	at com.genuitec.eclipse.core.ui.util.SafeUIJob.runInUIThread(SafeUIJob.java:117)
+	at com.genuitec.eclipse.core.ui.util.SafeUIJob.access$0(SafeUIJob.java:99)
+	at com.genuitec.eclipse.core.ui.util.SafeUIJob$1.run(SafeUIJob.java:79)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-10-23 10:27:44.744
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Image.<init>(Image.java:728)
+	at com.genuitec.eclipse.webicons.IconImageDescriptor.createImage(IconImageDescriptor.java:46)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:290)
+	at org.eclipse.jface.resource.ImageDescriptor.createImage(ImageDescriptor.java:268)
+	at com.genuitec.eclipse.webicons.styled.StyledContent.setContent(StyledContent.java:151)
+	at com.genuitec.eclipse.webclipse.evergreen.internal.ui.ReleaseNotesDialog.createDialogArea(ReleaseNotesDialog.java:108)
+	at org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:767)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.genuitec.eclipse.webclipse.evergreen.internal.ui.ReleaseNotesDialog$1.runSafelyInUIThread(ReleaseNotesDialog.java:57)
+	at com.genuitec.eclipse.core.ui.util.SafeUIJob.runInUIThread(SafeUIJob.java:117)
+	at com.genuitec.eclipse.core.ui.util.SafeUIJob.access$0(SafeUIJob.java:99)
+	at com.genuitec.eclipse.core.ui.util.SafeUIJob$1.run(SafeUIJob.java:79)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-10-23 10:27:44.746
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Font.<init>(Font.java:111)
+	at org.eclipse.jface.resource.ArrayFontDescriptor.createFont(ArrayFontDescriptor.java:78)
+	at com.genuitec.eclipse.webclipse.evergreen.internal.ui.ReleaseNotesDialog.createDialogArea(ReleaseNotesDialog.java:96)
+	at org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:767)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.genuitec.eclipse.webclipse.evergreen.internal.ui.ReleaseNotesDialog$1.runSafelyInUIThread(ReleaseNotesDialog.java:57)
+	at com.genuitec.eclipse.core.ui.util.SafeUIJob.runInUIThread(SafeUIJob.java:117)
+	at com.genuitec.eclipse.core.ui.util.SafeUIJob.access$0(SafeUIJob.java:99)
+	at com.genuitec.eclipse.core.ui.util.SafeUIJob$1.run(SafeUIJob.java:79)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY org.eclipse.ui.ide 4 4 2024-10-23 10:27:44.747
+!MESSAGE Not properly disposed SWT resource
+!STACK 0
+java.lang.Error: SWT Resource was not properly disposed
+	at org.eclipse.swt.graphics.Resource.initNonDisposeTracking(Resource.java:172)
+	at org.eclipse.swt.graphics.Resource.<init>(Resource.java:120)
+	at org.eclipse.swt.graphics.Font.<init>(Font.java:111)
+	at org.eclipse.jface.resource.ArrayFontDescriptor.createFont(ArrayFontDescriptor.java:78)
+	at com.genuitec.eclipse.webclipse.evergreen.internal.ui.ReleaseNotesDialog.createDialogArea(ReleaseNotesDialog.java:90)
+	at org.eclipse.jface.dialogs.Dialog.createContents(Dialog.java:767)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at com.genuitec.eclipse.webclipse.evergreen.internal.ui.ReleaseNotesDialog$1.runSafelyInUIThread(ReleaseNotesDialog.java:57)
+	at com.genuitec.eclipse.core.ui.util.SafeUIJob.runInUIThread(SafeUIJob.java:117)
+	at com.genuitec.eclipse.core.ui.util.SafeUIJob.access$0(SafeUIJob.java:99)
+	at com.genuitec.eclipse.core.ui.util.SafeUIJob$1.run(SafeUIJob.java:79)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4035)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3635)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)

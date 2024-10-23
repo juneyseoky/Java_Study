@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="pack_ingerit.Average"/>
     <fullyQualifiedTypeName name="pack_ingerit.Variance"/>
     <fullyQualifiedTypeName name="p08_singleton.Ref_Singleton"/>
     <fullyQualifiedTypeName name="p08_singleton.Ref_Normal"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="pkg.LoggableStatement"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="pkg.LogPreparedStatement"/>
+    <fullyQualifiedTypeName name="pkg.qd.DBConn"/>
 </qualifiedTypeNameHistroy>
