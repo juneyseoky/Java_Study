@@ -2,3 +2,6 @@
 1729645381122	Rename resource 'p05_QD_Community'
 1729645386063	Rename resource 'JDBC_Read_Quiz'
 1729645390100	Rename resource 'JDBC_DataRead'
+1729647725095	Delete resource 'mysql_test'
+1729666563622	Delete resource 'Servers'
+1729748581027	Delete resource 'Servers'

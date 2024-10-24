@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>HTML 입력 페이지</title>
+<style>
+	div#wrap{
+		width : 400px;
+		padding: 20px;
+		margin :10px auto;
+		border : 2px solid #08f;
+	}
+	form {
+		font-size : 18px;
+	}
+</style>
+</head>
+<body>
+ <div id="wrap">
+ 	<h1>입력 페이지</h1>
+ 
+	 <form action="receive.jsp">
+		 아이디를 입력하세요<input type="text" name="id">
+		 <br><br>
+		 이름을 입력하세요<input type="text" name="name">
+		 <br><br>
+		 년차를 입력하세요<input type="text" name="yearRank">
+		 <br><br>
+		 직위를 입력하세요<input type="text" name="position">
+		 <br><br>
+	 	<button type="submit">입력하기</button>
+	 </form>
+ </div>
+
+</body>
+</html>
